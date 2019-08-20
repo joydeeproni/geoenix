@@ -2488,11 +2488,11 @@ textarea {
 }
 .footer ul li {
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 .footer ul li a {
   color: #fff;
-  font-size: 13px;
+  font-size: 30px;
 }
 .footer ul li a:hover {
   color: #FF530D;
