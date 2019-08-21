@@ -180,7 +180,7 @@
 						[11, 3]
 					];
 					$('.equalizer').equalizerAnimation(180, barsHeight);
-				
+
 
 
 		// PAGE TRANSITION
@@ -229,7 +229,7 @@
 		var mainslider = new Swiper('.gallery-top', {
 			spaceBetween: 0,
 			autoplay: {
-			delay: 9500,
+			delay: 6000,
 			disableOnInteraction: false,
 			},
 			navigation: {
