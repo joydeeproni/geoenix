@@ -854,7 +854,7 @@ textarea {
   -o-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
 }
-.all-cases .inner ul li a:hover {
+.all-cases .inner ul li  {
   color: #FF530D;
   text-decoration: none;
 }
@@ -1140,9 +1140,11 @@ textarea {
 }
 .slider .gallery-thumbs .swiper-slide a:hover {
   text-decoration: none;
+  color: #FF530D;
 }
 .slider .gallery-thumbs .swiper-slide a:hover:before {
   width: 100%;
+  background: #FF530D;
 }
 .slider .gallery-thumbs .swiper-slide-active {
   width: 100%;
