@@ -56,6 +56,13 @@ theme.
 /* GOOGLE FONTS */
 @import url("https://fonts.googleapis.com/css?family=Fjalla+One|Poppins:300,400,600,800&display=swap");
 /* BODY */
+
+#mobile-wte{
+  visibility: collapse;
+  height: 0px;
+  width: 0px;
+}
+
 * {
   outline: none !important;
 }
@@ -2547,6 +2554,11 @@ textarea {
 
 /* RESPONSIVE TABLET FIXES */
 @media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
+
+  #urooj{
+    visibility: hidden;
+  }
+
   .section-title {
     font-size: 8vw;
     margin-bottom: 50px;
@@ -2721,6 +2733,11 @@ textarea {
 }
 /* RESPONSIVE MOBILE FIXES */
 @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+
+#wte{
+  visibility: hidden;
+}
+
   .section-title {
     font-size: 9vw;
     margin-bottom: 40px;
