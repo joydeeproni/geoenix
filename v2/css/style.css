@@ -63,6 +63,10 @@ theme.
   width: 0px;
 }
 
+#wte{
+  visibility: visible;
+}
+
 * {
   outline: none !important;
 }
@@ -2736,6 +2740,12 @@ textarea {
 
 #wte{
   visibility: hidden;
+}
+
+#mobile-wte{
+  visibility: visible;
+  height: auto;
+  width: auto;
 }
 
   .section-title {
